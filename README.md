@@ -10,8 +10,8 @@ demo is available here: https://youtu.be/k8g58AKI3xo
 
 ## tech stack
 
-Frontend: Angular, Tailwind CSS, Material UI
-Backend: ExpressJS
-Payment Gateway: Stripe
-
+Frontend: Angular, Tailwind CSS, Material UI <br/>
+Backend: ExpressJS  <br/>
+Payment Gateway: Stripe <br/>
+<br/>
 my portfolio: https://mayuraitavadekar.com
