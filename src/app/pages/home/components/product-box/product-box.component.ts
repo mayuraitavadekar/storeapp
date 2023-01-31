@@ -10,16 +10,7 @@ import { Product } from 'src/app/models/product.model';
 export class ProductBoxComponent {
   // receive input from parent component
   @Input() fullWidthMode = false;
-
-  product: Product | undefined = {
-    id: 1,
-    title: 'Snickers',
-    price: 150,
-    category: 'shoes',
-    description: 'Description',
-    image: "https://via.placeholder.com/150"
-  };
-
+  @Input() product: Product | undefined;
   @Output() addToCart = new EventEmitter();
 
   onAddToCart(): void {

@@ -13,11 +13,12 @@ import { CartService } from './services/cart.service';
 export class AppComponent implements OnInit {
   title = 'store-app';
 
-  cart: Cart = { items: []};
+  cart: Cart = { items: []};  
 
   constructor(private cartService: CartService) { }
 
   ngOnInit() {
+    // subscribe to behavioral service 
     this.cartService.cart.subscribe((_cart) => {
       this.cart = _cart;
     })
